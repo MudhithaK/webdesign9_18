@@ -1,8 +1,10 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
-import React, { useContext, useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react'
 
-const Dress=(pros)=>{
+const Dress = () => {
+  return (
+    <div>
 
+    </div>
+  )
 }
 export default Dress;
