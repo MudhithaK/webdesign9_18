@@ -1,0 +1,22 @@
+.home1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home1 h1 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #580404;
+  font-style: italic;
+}
+body{
+    background-image: linear-gradient(#fcf483b3,#fdfdfcb3);
+    
+}
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: url("/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+}
