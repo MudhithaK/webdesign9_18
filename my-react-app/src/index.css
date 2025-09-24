@@ -2,11 +2,9 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  background-image: linear-gradient(#ede961fa,#fcfcfdfe),url(/my-react-app/src/assets/f1.jpg);
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #240361;
-
+  color: rgba(36, 1, 1, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
