@@ -16,10 +16,11 @@ header {
 /* Logo */
 .logo {
   text-align: center;
-  padding: 10px 0;
   font-size: 20px;
   font-weight: bold;
   color: #580404;
+  display: flex;
+  
 }
 
 /* Navigation bar */
@@ -27,7 +28,17 @@ header {
   text-align: right;
   padding: 10px 50px;
 }
+.logo{
+    background-color: #000;   
+    font-size: medium;
 
+}
+.logo1{
+    padding-top: 40px;
+    font-size: 30px;
+    padding-left: 50px;
+    color: #ccc;
+}
 .nav-links ul {
   list-style: none;
   margin: 0;
@@ -41,6 +52,7 @@ header {
   color: #000;
   font-weight: 500;
   position: relative;
+  font-size: 30px;
 }
 
 .nav-links ul li a:hover {
@@ -73,6 +85,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Georgia", serif;
+  
 }
 
 /* Logo on very top */
@@ -91,7 +104,7 @@ body {
 .nav-links {
   width: 100%;
   background: #fff6d1; /* soft background */
-  text-align: right;
+  text-align: center;
   padding: 15px 50px; /* right padding */
   box-sizing: border-box;
 }
@@ -101,12 +114,21 @@ body {
   margin: 0;
   padding: 0;
   display: inline-flex;
-  gap: 30px;
+  gap: 50px;
+}
+img{
+    size: 50px;
+    width: 100px;
+    height: 120px;
+    object-fit: cover; /* keeps aspect ratio */
+    border-radius: 8px; /* optional, rounded corners */
+    
+    padding-left: 600px;
 }
 
 .nav-links ul li a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   color: #000;
   font-weight: 500;
   position: relative;
