@@ -10,14 +10,11 @@ h1 {
   color: #580404;
   font-style: italic;
 }
-body{
-    background-image: linear-gradient(#fcf483f5,#fdfdfcf3),url(/my-react-app/src/assets/f1.jpg);
-    background-color: aliceblue;
-    
-}
+
 body {
   margin: 0;
   font-family: "Georgia", serif;
-
+  background-image: linear-gradient(#fcf48387,#fdfdfc5a), url(${bgImg});
   width: 100%;
+  
 }
