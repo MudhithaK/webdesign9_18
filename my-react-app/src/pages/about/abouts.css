@@ -1,0 +1,14 @@
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #580404;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background-image: linear-gradient(#fcf48387,#fdfdfc5a), url(${bgImg});
+  width: 100%;
+  
+}
