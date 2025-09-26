@@ -3,6 +3,8 @@ import React from "react";
 import "./headers.css";
 import wed from "../../assets/Wedding.jpg";
 import wedd from "../../assets/wedding1.jpeg";
+import About from "../../pages/about";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -18,8 +20,8 @@ const Header = () => {
       <div className="nav-links">
         <ul>
         
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/about">ABOUT</a></li>
           <li><a href="#">PACKAGES</a></li>
           <li><a href="#">CALCULATION</a></li>
           <li><a href="#">CONTACT US</a></li>
