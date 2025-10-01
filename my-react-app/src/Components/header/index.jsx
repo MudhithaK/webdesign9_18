@@ -20,11 +20,23 @@ const Header = () => {
       <div className="nav-links">
         <ul>
         
-          <li><a href="/">HOME</a></li>
-          <li><a href="/about">ABOUT</a></li>
-          <li><a href="#">PACKAGES</a></li>
-          <li><a href="#">CALCULATION</a></li>
-          <li><a href="#">CONTACT US</a></li>
+          <li><div class="dropdown"><button class="dropbtn"><a href="/">HOME</a></button></div></li>
+          <li><div class="dropdown"><button class="dropbtn"><a href="/about">ABOUT</a></button></div></li>
+          <li>
+          <div class="dropdown">
+          <button class="dropbtn"><a href="#">PACKAGES</a></button>   
+          <div class="dropdown-content">
+           <a href="#">Hotels</a>
+           <a href="#">Dress</a>
+           <a href="#">Decoration</a>
+           <a href="#">Cakes</a>
+           <a href="#">Makeup</a>
+           <a href="">Music</a>
+          </div>
+          </div> 
+          </li>
+          <li><div class="dropdown"><button class="dropbtn"><a href="#">CALCUATION</a></button></div></li>
+          <li><div class="dropdown"><button class="dropbtn"><a href="#">CONTACT US</a></button></div></li>
         </ul>
       </div>
     </nav>
