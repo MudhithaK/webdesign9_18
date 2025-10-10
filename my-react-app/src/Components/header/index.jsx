@@ -24,7 +24,7 @@ const Header = () => {
           <li><div class="dropdown"><button class="dropbtn"><a href="/about">ABOUT</a></button></div></li>
           <li>
           <div class="dropdown">
-          <button class="dropbtn"><a href="#">PACKAGES</a></button>   
+          <button class="dropbtn"><a href="/packages">PACKAGES</a></button>   
           <div class="dropdown-content">
            <a href="#">Hotels</a>
            <a href="#">Dress</a>
