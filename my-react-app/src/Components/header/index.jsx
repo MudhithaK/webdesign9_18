@@ -5,17 +5,20 @@ import wed from "../../assets/Wedding.jpg";
 import wedd from "../../assets/wedding1.jpeg";
 import About from "../../pages/about";
 import { Link } from "react-router-dom";
+import Headerup from "./headerup";
 
 const Header = () => {
   return (
+    <>
+    
     <nav className="navbar">
       <div className="logo">
-         <img src={wedd}/>
-        <div className="logo1">
-        WEDDING COST
-        </div>
-
-      </div>
+               <img src={wedd}/>
+              <div className="logo1">
+              WEDDING COST
+              </div>
+      
+            </div>
       
       <div className="nav-links">
         <ul>
@@ -40,6 +43,7 @@ const Header = () => {
         </ul>
       </div>
     </nav>
+    </>
   );
 };
 

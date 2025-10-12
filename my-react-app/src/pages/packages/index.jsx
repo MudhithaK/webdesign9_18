@@ -1,16 +1,24 @@
 import React from 'react'
 import Header from '../../Components/header';
 import "./packegess.css";
+import Slider from '../../Components/slider';
+import Headerup from '../../Components/headerup';
+
 
 const Packages = () => {
   return (
     <>
+    
     <Header/>
+    <Slider/>
     <body >
+      
         <div>
             <h1>PACKAGES</h1>
         </div>
-        
+        <div>
+          
+        </div>
         <div className='packages'>
           <div className='package'>
             <h3>Venue</h3>

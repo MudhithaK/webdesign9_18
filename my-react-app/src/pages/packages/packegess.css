@@ -8,7 +8,7 @@ h1 {
 body {
   margin: 0;
   font-family: "Georgia", serif;
-  background-image: linear-gradient(#e9e6cd87,#fdfdfc5a), url(${bgImg});
+  /*background-image: linear-gradient(#e7d744bf,#fdfdfc5a), url(${bgImg});*/
   width: 100%;
   
 }
