@@ -39,8 +39,8 @@
 
 /* --- ARROWS/CONTROLS --- */
 .arrow {
-    border: 2px solid #fff;
-    border-radius: 50%;
+    border: 2px solid #130101;
+    border-radius: 100%;
     background: transparent;
     color: #fff;
     width: 2rem;

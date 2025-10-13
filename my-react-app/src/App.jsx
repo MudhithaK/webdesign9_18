@@ -6,6 +6,7 @@ import Header from './Components/header'
 import Slider from './Components/slider'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Packages from './pages/packages'
+import Hotel from './pages/hotels'
 //import Header from './Components/header'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path='/packages' element={<Packages/>}/>
+      <Route path="/hotels" element={<Hotel/>}/>
     </Routes>
     </BrowserRouter>
     </>

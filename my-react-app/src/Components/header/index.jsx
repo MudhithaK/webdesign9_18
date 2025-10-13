@@ -29,7 +29,7 @@ const Header = () => {
           <div class="dropdown">
           <button class="dropbtn"><a href="/packages">PACKAGES</a></button>   
           <div class="dropdown-content">
-           <a href="#">Hotels</a>
+           <a href="/hotels">Hotels</a>
            <a href="#">Dress</a>
            <a href="#">Decoration</a>
            <a href="#">Cakes</a>

@@ -26,7 +26,7 @@ const Packages = () => {
               There are Star ratings for Hotels in Sri Lanka. 
                    Select the venue as you like and check the cost for your selection.   
             </p>
-            <button href="#">Click</button>
+            <button><a href="/hotels">Click</a></button>
           </div>
 
 

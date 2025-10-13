@@ -1,0 +1,36 @@
+.Hotelsp{
+    width: 100%;
+}
+.AHP{
+    width: 80%;
+    padding-left: 10%;
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.HP{
+    width: 48%;
+    height: 0%;  
+    flex-basic: 31%;
+    
+    background-image: radial-gradient(#a69105eb,#fdfdfce1);
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    color: rgb(85, 57, 1);
+}
+.HP:hover{
+    background-color: rgb(243, 248, 92);
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: 600;
+}
+.AH:hover{
+    background-color: black;
+    color: aliceblue;
+}
