@@ -1,16 +1,24 @@
 import React from 'react'
 import Header from '../../Components/header';
 import "./packegess.css";
+import Slider from '../../Components/slider';
+import Headerup from '../../Components/headerup';
+
 
 const Packages = () => {
   return (
     <>
+    
     <Header/>
+    <Slider/>
     <body >
+      
         <div>
             <h1>PACKAGES</h1>
         </div>
-        
+        <div>
+          
+        </div>
         <div className='packages'>
           <div className='package'>
             <h3>Venue</h3>
@@ -18,7 +26,7 @@ const Packages = () => {
               There are Star ratings for Hotels in Sri Lanka. 
                    Select the venue as you like and check the cost for your selection.   
             </p>
-            <button href="#">Click</button>
+            <button><a href="/hotels">Click</a></button>
           </div>
 
 

@@ -1,0 +1,22 @@
+.navbar{
+  width: 100%;
+}
+.logo1{
+    font-size: 30px;
+    color: #ccc;
+}
+.logo {
+  width: 98.44%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 0%;
+  color: #580404;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ccc; /* optional line under logo */
+  display: flex;
+  background-color: #000;   
+  font-size: medium;
+  
+}
+
