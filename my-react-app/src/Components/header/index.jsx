@@ -33,8 +33,8 @@ const Header = () => {
            <a href="/dresses">Dress</a>
            <a href="/decorations">Decoration</a>
            <a href="/cake">Cakes</a>
-           <a href="#">Makeup</a>
-           <a href="">Music</a>
+           <a href="/makeup">Makeup</a>
+           <a href="/music">Music</a>
           </div>
           </div> 
           </li>
