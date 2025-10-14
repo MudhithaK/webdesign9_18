@@ -16,12 +16,16 @@
     height: 0%;  
     flex-basic: 31%;
     
-    background-image: radial-gradient(#a69105eb,#fdfdfce1);
+    background-image: radial-gradient(#070707eb,#0c0c0ce1);
     border-radius:10px;
     margin-bottom: 5%;
     padding: 10px 12px;
     box-sizing: border-box;
-    color: rgb(85, 57, 1);
+    color: rgb(243, 211, 49);
+}
+.HP p{
+    color: aliceblue;
+
 }
 .HP:hover{
     background-color: rgb(243, 248, 92);

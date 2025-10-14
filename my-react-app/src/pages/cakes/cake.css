@@ -1,0 +1,26 @@
+.c2{
+    width: 80%;
+    padding-left: 18%;
+
+}
+.c3{
+    width: 80%;
+    height: 0%;  
+    background-image: radial-gradient(#070707eb,#0b0b0ae1);
+    border-radius:10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    color: rgb(243, 224, 84);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: aliceblue;
+    padding: 10px 15px;
+
+}
+.c3 p{
+    color: aliceblue;
+}
+.c3 p{
+    color: black;
+    background-image: radial-gradient(#fdfafaeb,#f7f7f4e1);
+    
+}
