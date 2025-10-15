@@ -30,11 +30,11 @@ const Header = () => {
           <button class="dropbtn"><a href="/packages">PACKAGES</a></button>   
           <div class="dropdown-content">
            <a href="/hotels">Hotels</a>
-           <a href="#">Dress</a>
-           <a href="#">Decoration</a>
-           <a href="#">Cakes</a>
-           <a href="#">Makeup</a>
-           <a href="">Music</a>
+           <a href="/dresses">Dress</a>
+           <a href="/decorations">Decoration</a>
+           <a href="/cake">Cakes</a>
+           <a href="/makeup">Makeup</a>
+           <a href="/music">Music</a>
           </div>
           </div> 
           </li>
