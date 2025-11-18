@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./hotels.css";
 import Header from "../../Components/header";
+import Footer from "../../Components/footer";
 
 const Hotel=(pros)=>{
     return(
@@ -61,7 +62,7 @@ const Hotel=(pros)=>{
 
         </div>
         
-        
+        <Footer/>
         </>
     )
 

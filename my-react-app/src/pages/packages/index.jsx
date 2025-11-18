@@ -3,6 +3,7 @@ import Header from '../../Components/header';
 import "./packegess.css";
 import Slider from '../../Components/slider';
 import Headerup from '../../Components/headerup';
+import Footer from '../../Components/footer';
 
 
 const Packages = () => {
@@ -109,6 +110,7 @@ const Packages = () => {
 
 
     </body>
+    <Footer/>
     </>
   )
 }

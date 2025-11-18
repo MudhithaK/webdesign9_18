@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./makeup.css";
 import Header from "../../Components/header";
+import Footer from "../../Components/footer";
 
 const Makeup=(pros)=>{
     return(
@@ -39,6 +40,8 @@ const Makeup=(pros)=>{
                 </div>
             </div>
         </div>
+
+        <Footer/>
         </>
     )
 
