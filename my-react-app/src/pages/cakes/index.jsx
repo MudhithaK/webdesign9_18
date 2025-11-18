@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./cake.css"
 import Header from "../../Components/header";
+import Footer from "../../Components/footer";
 
 const Cake=(pros)=>{
     return(
@@ -61,6 +62,7 @@ const Cake=(pros)=>{
 
         </div>
         
+        <Footer/>
         </>
     )
 

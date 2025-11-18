@@ -1,0 +1,94 @@
+/* --- Base Footer Styles --- */
+.site-footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding-top: 50px; /* Space at the top of the footer */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* --- Content Layout (Using Flexbox) --- */
+.footer-content {
+    display: flex; /* Arranges sections horizontally */
+    justify-content: space-around; /* Distributes space between sections */
+    flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+    max-width: 1200px; /* Limits the max width of the content */
+    margin: 0 auto; /* Centers the content */
+    padding: 0 20px 40px; /* Horizontal and bottom padding */
+}
+
+.footer-section {
+    flex-basis: 300px; /* Minimum width for each section */
+    margin: 20px; /* Spacing between sections */
+}
+
+.footer-section h3 {
+    color: #f7f7f7; /* Slightly lighter heading color */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #555; /* Simple separator under heading */
+    padding-bottom: 5px;
+}
+
+/* --- Quick Links Section Styling --- */
+.footer-section.links ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+.footer-section.links ul li a {
+    color: #ccc; /* Link color */
+    text-decoration: none; /* Removes underline */
+    display: block; /* Makes the entire list item clickable area */
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.footer-section.links ul li a:hover {
+    color: #4CAF50; /* Highlight color on hover */
+}
+
+/* --- Social Media Links --- */
+.social-links a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #4CAF50; /* Highlight color on hover */
+}
+
+/* --- Contact Info Icons --- */
+.footer-section.contact-info p i {
+    margin-right: 10px;
+    color: #4CAF50; /* Icon color */
+}
+
+/* --- Footer Bottom (Copyright) --- */
+.footer-bottom {
+    background-color: #222; /* Slightly darker bottom bar */
+    color: #aaa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* --- Responsiveness for Smaller Screens --- */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stacks sections vertically */
+        align-items: center; /* Centers sections */
+    }
+
+    .footer-section {
+        flex-basis: 90%; /* Takes up most of the available width */
+        text-align: center; /* Centers text in each section */
+        margin: 20px 0;
+    }
+
+    .footer-section h3 {
+        border-bottom: none; /* Remove border in mobile view */
+        padding-bottom: 0;
+    }
+}

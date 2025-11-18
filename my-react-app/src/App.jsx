@@ -12,6 +12,7 @@ import Decoration from './pages/decorations'
 import Cake from './pages/cakes'
 import Makeup from './pages/makeup'
 import Music from './pages/music'
+import Contact from './pages/contact'
 //import Header from './Components/header'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Route path='/cake' element={<Cake/>}/>
       <Route path='/makeup' element={<Makeup/>}/>
       <Route path='/music' element={<Music/>}/>
+      <Route path='/contact' element={<Contact/>}/>
     </Routes>
     </BrowserRouter>
     </>

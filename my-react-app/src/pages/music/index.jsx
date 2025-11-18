@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Header from "../../Components/header";
 import "./music.css";
+import Footer from "../../Components/footer";
 
 const Music=(pros)=>{
     return(
@@ -32,6 +33,8 @@ const Music=(pros)=>{
 
             </div>
         </div>
+
+        <Footer/>
         </>
     )
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./dress.css"
 import Header from '../../Components/header';
+import Footer from '../../Components/footer';
 
 const Dress = () => {
   return (
@@ -127,6 +128,8 @@ const Dress = () => {
 
 
       </div>
+
+      <Footer/>
 
     </>
   )

@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import './styleh.css';
 import Header from "../../Components/header";
 import bgImg from "../../assets/f1.jpg"; 
+import Footer from "../../Components/footer";
 
 
 const Home=(pros)=>{
@@ -19,6 +20,7 @@ const Home=(pros)=>{
             Select packages as you want, and calculate the budget for Wedding
         </div>
          </body>
+         <Footer/>
     </>
     );
 

@@ -1,6 +1,7 @@
 .home1 {
   text-align: center;
   margin-top: 100px;
+    padding-bottom: 200px;
 
 }
 
@@ -16,5 +17,6 @@ body {
   font-family: "Georgia", serif;
   background-image: linear-gradient(#fcf48387,#fdfdfc5a), url(${bgImg});
   width: 100%;
+  padding-bottom: 200px;
   
 }

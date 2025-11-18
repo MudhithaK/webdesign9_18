@@ -1,6 +1,7 @@
 import React from 'react'
 import "./dec.css";
 import Header from '../../Components/header';
+import Footer from '../../Components/footer';
 
 const Decoration = () => {
   return (
@@ -55,6 +56,8 @@ const Decoration = () => {
 
       </div>
     </div>
+
+    <Footer/>
   
     </>
   )
