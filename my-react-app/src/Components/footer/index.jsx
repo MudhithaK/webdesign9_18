@@ -50,7 +50,7 @@ return(
         <div class="footer-section about">
             <h3>About Us</h3>
             
-            <p>We are a dedicated team focused on providing the best possible service and solutions to our clients.</p>
+            <p>We are a dedicated team focused on providing the best possible service and solutions to your Wedding.</p>
             <div class="social-links">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -60,22 +60,21 @@ return(
         <div class="footer-section links">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="footer-section contact-info">
             <h3>Contact</h3>
-            <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Anytown, USA</p>
-            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-            <p><i class="fas fa-envelope"></i> info@example.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sri Lanka</p>
+            <p><i class="fas fa-phone"></i> +94 (11)1234098</p>
+            <p><i class="fas fa-envelope"></i> info@weddingplain.com</p>
         </div>
     </div>
     <div class="footer-bottom">
-        &copy; 2025 YourCompanyName | Designed by [Your Name]
+        &copy; 2025 WeddingPlaning | Designed by [wp]
     </div>
 </footer>
     

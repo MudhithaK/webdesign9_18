@@ -1,8 +1,8 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
-import React, { useContext, useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react'
 
-const Calculation=(pros)=>{
-
+const Calculation = () => {
+  return (
+    <div>index</div>
+  )
 }
 export default Calculation;
