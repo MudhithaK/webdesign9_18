@@ -2,14 +2,22 @@ import React from 'react'
 import "./dec.css";
 import Header from '../../Components/header';
 import Footer from '../../Components/footer';
+import dec from "../../assets/deco.jpg";
 
 const Decoration = () => {
   return (
     <>
     <Header/>
-    <div className='dress'>
-      <h1>Decorate your Wedding hall</h1>
-      <p>packages for hall,table and chairs decoration</p>
+    <body style={{backgroundImage: `linear-gradient(rgba(252, 244, 131, 0),rgba(253, 253, 252, 0)), url(${dec})`,
+                    backgroundRepeat: "repeat",
+                    backgroundSize: "60% auto",
+                    backgroundPosition: "top center",
+                    width: "100%",
+                    minHeight: "100vh",
+              }}>
+    <div className='dress' >
+      <h1 style={{fontSize:"60px", color:"Gold"}}>Decorate your Wedding hall</h1>
+      <p style={{color:"#e3e2e8", fontSize:"30px"}}>packages for hall,table and chairs decoration</p>
       <div className='dc1'>
         <div className='dc2'>
           <h3>Basic package</h3>
@@ -58,6 +66,7 @@ const Decoration = () => {
     </div>
 
     <Footer/>
+    </body>
   
     </>
   )

@@ -1,20 +1,28 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import React, { useContext, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./cake.css"
 import Header from "../../Components/header";
 import Footer from "../../Components/footer";
+import bicake from "../../assets/cake.jpeg";
+import "./cake.css";
 
 const Cake=(pros)=>{
     return(
         <>
         <Header/>
-        <div className="c1">
-            <h1>Wedding cakes and structure</h1>
-            <p>Select the packages as you want, and get budget for Wedding</p>
+        <body style={{backgroundImage: `linear-gradient(rgba(252, 244, 131, 0),rgba(253, 253, 252, 0)), url(${bicake})`,
+                backgroundRepeat: "repeat",
+                backgroundSize: "50% auto",
+                backgroundPosition: "top center",
+                width: "100%",
+                minHeight: "100vh",
+          }} >
+        <div className="c1" >
+            <h1 style={{color:"white", fontSize:"60px"}}>Wedding cakes and structure</h1>
+            <p style={{color:"white", fontSize:"30px"}}>Select the packages as you want, and get budget for Wedding</p>
             <div className="c2">
                 <div className="c3">
-                    <h3>Bronze package</h3>
+                    <h3 style={{color:"white", fontSize:"30px"}}>Bronze package</h3>
                     <p>Flour, Sugar, Butter, Eggs, Vanilla Extract, Baking Powder, Milk</p>
                     <p>2 x 1.25 x 0.75 inches =Rs 400</p>
                     <p>2 x 2 x 0.75 inches = Rs 500</p>
@@ -23,7 +31,7 @@ const Cake=(pros)=>{
                 </div>
 
                 <div className="c3">
-                    <h3>Silver Packages</h3>
+                    <h3 style={{color:"white", fontSize:"30px"}}>Silver Packages</h3>
                     <p>Bronze Package + Nuts, Spices, Dried Fruits, Kithul Pani</p>
                     <p>2 x 1.25 x 0.75 inches =Rs 600</p>
                     <p>2 x 2 x 0.75 inches = Rs 750</p>
@@ -33,7 +41,7 @@ const Cake=(pros)=>{
                 </div>
 
                 <div className="c3">
-                    <h3>Gold Packages</h3>
+                    <h3 style={{color:"white", fontSize:"30px"}}>Gold Packages</h3>
                     <p>Silver Package + Edible Gold Leaf or Gold Dust, Almonds or </p>
                        <p> Macadamia Nuts, Grand Marnier or Cognac, Vanilla Beans,</p> 
                         <p>Gold-Dusted Berries</p>
@@ -44,7 +52,7 @@ const Cake=(pros)=>{
                 </div>
 
                 <div className="c3">
-                    <h3>Wedding Cake and Structure</h3>
+                    <h3 style={{color:"white", fontSize:"30px"}}>Wedding Cake and Structure</h3>
                     <p>Simple Designs</p>
                     <p>Simple one-layer cakes:
                         Rs 3 000 , Rs 5 000 , Rs 10 000</p>
@@ -63,6 +71,7 @@ const Cake=(pros)=>{
         </div>
         
         <Footer/>
+        </body>
         </>
     )
 

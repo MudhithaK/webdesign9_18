@@ -2,14 +2,22 @@ import React from 'react'
 import "./dress.css"
 import Header from '../../Components/header';
 import Footer from '../../Components/footer';
+import dress from "../../assets/dressf.jpg";
 
 const Dress = () => {
   return (
     <>
     <Header/>
-      <div className='Dresses'>
+    <body style={{backgroundImage: `linear-gradient(rgba(252, 244, 131, 0),rgba(253, 253, 252, 0)), url(${dress})`,
+                          backgroundRepeat: "repeat",
+                          backgroundSize: "50% auto",
+                          backgroundPosition: "top center",
+                          width: "100%",
+                          minHeight: "100vh",
+                    }}>
+      <div className='Dresses' >
 
-        <h1>Wedding Dress and Accessory</h1>
+        <h1 style={{color:"yellow", fontSize:"60px"}}>Wedding Dress and Accessory</h1>
         <div className='D1'>
           
           <div className='D2'>
@@ -128,6 +136,7 @@ const Dress = () => {
 
 
       </div>
+      </body>
 
       <Footer/>
 

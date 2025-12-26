@@ -2,12 +2,19 @@ import React from 'react'
 import Header from '../../Components/header';
 import "./abouts.css";
 import Footer from '../../Components/footer';
+import ab from "../../assets/abb.jpg";
 
 const About = () => {
   return (
     <>
         <Header/>
-        <body>
+        <body style={{backgroundImage: `linear-gradient(rgba(252, 244, 131, 0.5),rgba(253, 253, 252, 0)), url(${ab})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "100% auto",
+                            backgroundPosition: "top center",
+                            width: "100%",
+                            minHeight: "50vh",
+                      }}>
 
         <div class="about-col" >
             <h1>How can you get help from us to plan your Wedding </h1>

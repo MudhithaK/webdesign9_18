@@ -4,18 +4,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./hotels.css";
 import Header from "../../Components/header";
 import Footer from "../../Components/footer";
+import bgIm from "../../assets/wd.jpeg";
 
 const Hote=(pros)=>{
     return(
         <>
         <Header/>
-        <body style={{backgroundImage: `linear-gradient(rgba(252, 244, 131, 0.5), rgba(253, 253, 252, 0.5)), url(${bgImg})`,backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",width: "100%",
-                height: "100vh",}}>
+        <body  style={{backgroundImage: `linear-gradient(rgba(252, 244, 131, 0),rgba(253, 253, 252, 0)), url(${bgIm})`,
+        backgroundRepeat: "repeat-y",
+        backgroundSize: "100% auto",
+        backgroundPosition: "top center",
+        width: "100%",
+        minHeight: "100vh",
+  }}>
         <div className="hotels">
-            <h1>Packages of Venue</h1>
-            <p>Select Hotels' Packages as you want, and get budget for Wedding</p>
+            <h1 style={{color:"white", fontSize:"60px"}}>Packages of Venue</h1>
+            <p style={{color:"black", fontSize:"30px"}}>Select Hotels' Packages as you want, and get budget for Wedding</p>
 
             <div className="Hotelp">
                 <div className="AHP">
