@@ -1,0 +1,76 @@
+.budget-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 50px;
+  background: linear-gradient(to bottom, #f5e76b, #f7f1a3);
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Georgia", serif;
+  color: #6b0000;
+  margin-bottom: 40px;
+}
+
+.budget-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 40px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4b0000;
+  margin-bottom: 6px;
+}
+
+.form-group input {
+  height: 45px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #333;
+  color: #fff;
+}
+
+.form-group input::placeholder {
+  color: #bbb;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: gold;
+}
+
+.total-budget {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #5a0000;
+}
+
+.total-budget span {
+  color: #000;
+}
+
+.form-group select {
+  height: 55px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #333;
+  color: #fff;
+}
+

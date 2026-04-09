@@ -38,7 +38,7 @@ const Header = () => {
           </div>
           </div> 
           </li>
-          <li><div class="dropdown"><button class="dropbtn"><a href="#">CALCUATION</a></button></div></li>
+          <li><div class="dropdown"><button class="dropbtn"><a href="/calculation">CALCUATION</a></button></div></li>
           <li><div class="dropdown"><button class="dropbtn"><a href="/contact">CONTACT US</a></button></div></li>
         </ul>
       </div>

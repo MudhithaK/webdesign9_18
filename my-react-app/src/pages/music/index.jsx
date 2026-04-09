@@ -20,7 +20,7 @@ const Music=(pros)=>{
                               }}>
         <div className="music">
             <h1 style={{fontSize:"50px", color:"black"}}>Wedding Entertainment</h1>
-            <p style={{fontSize:"20px", color:"white"}}>Select packages of entertainment, or Individual DJ Artist, or Band as you want, and get budget for Wedding</p>
+            <h2 style={{fontSize:"20px", color:"white"}}>Select packages of entertainment, or Individual DJ Artist, or Band as you want, and get budget for Wedding</h2>
             <div className="mu1">
                 <div className="mu2">
                     <h3 style={{fontSize:"30px"}}>Packages for Entertainment</h3>

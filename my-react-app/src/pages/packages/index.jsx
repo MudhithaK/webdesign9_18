@@ -51,7 +51,7 @@ const Packages = () => {
               affect the typical cost of wedding decorations in Sri Lanka.
               We can have theme based decorations according to the personal desires.
             </p>
-            <button href="#">Click</button>
+            <button href="/decorations">Click</button>
           </div>
 
           <div className='package'>
@@ -63,7 +63,7 @@ const Packages = () => {
               including hiring a DJ or live band, organizing sound and
               lighting equipment.
             </p>
-            <button href="#">Click</button>
+            <button href="/music">Click</button>
           </div>
 
           <div className='package'>
@@ -76,7 +76,7 @@ const Packages = () => {
               as peacock motifs or conventional Kandyan patterns define traditional wedding
               cakes from Sri Lanka
             </p>
-            <button href="#">Click</button>
+            <button href="/cake">Click</button>
           </div>
 
           <div className='package'>
@@ -90,7 +90,7 @@ const Packages = () => {
               Vintage or Antique Dresses: - Unique and one-of-a-kind pieces,
               historical value, condition variability.
             </p>
-            <button href="#">Click</button>
+            <button href="/dresses">Click</button>
           </div>
 
           <div className='package'>
@@ -102,7 +102,7 @@ const Packages = () => {
               breakdown of wedding makeup budget ranges for different categories:
                     
             </p>
-            <button href="#">Click</button>
+            <button href="/makeup">Click</button>
           </div>
 
         </div>

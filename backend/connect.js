@@ -1,5 +1,5 @@
-const {MongoClient}= require("mongodb")
-require("dotenv").config({path:"./config.env"})
+const { MongoClient } = require("mongodb");
+require("dotenv").config({ path: "./config.env" });
 
 const uri = process.env.ATLAS_URL;
 const client = new MongoClient(uri);
@@ -9,13 +9,15 @@ async function main() {
     await client.connect();
     console.log("✅ Connected to MongoDB");
 
-    const collections = await client
-      .db("wplan")
-      .listCollections()
-      .toArray();
+    const db = client.db("wplan");          // your DB name
+    const hotelsCollection = db.collection("hotels"); // collection name
 
-    collections.forEach(col => {
-      console.log("📁 Collection:", col.name);
+    // 🔥 Fetch all hotel data
+    const hotels = await hotelsCollection.find({}).toArray();
+
+    console.log("🏨 Hotels Data:");
+    hotels.forEach((hotel, index) => {
+      console.log(`${index + 1}. Type: ${hotel.Htype}, Price: ${hotel.price}`);
     });
 
   } catch (err) {
@@ -26,3 +28,4 @@ async function main() {
 }
 
 main();
+

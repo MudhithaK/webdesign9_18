@@ -36,7 +36,42 @@ function MyComponent() {
     
     }
 
+
+
+function HotelDat() {
+    const [hotels, setHotel] = useState([]);
+
+    useEffect(() => {
+        axios.get('http://localhost:5000/api/hotels')
+            .then(hotels => setHotel(hotels.data))
+            .catch(err => console.log(err));
+    }, []);
+
+    return (
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hotel Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {hotels.map((hotel) => (
+                        <tr key={hotel._id}>
+                            <td>{hotel.Htype}</td>
+                            <td>{hotel.price}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
+}
+
 const Footer=(pros)=>{
+
+    
         
 
 return(
@@ -44,7 +79,6 @@ return(
     
     <footer class="site-footer">
         <div className="backend-data-display">
-                <MyComponent />
                 </div>
     <div class="footer-content">
         <div class="footer-section about">
@@ -61,8 +95,7 @@ return(
             <h3>Quick Links</h3>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="/about">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
